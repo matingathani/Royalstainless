@@ -1,0 +1,192 @@
+
+.outercontainer {
+  background-image: url("../../images/bg\ drawing.png");
+  background-position: 0 -12rem;
+  background-size: cover;
+  padding-top: 5rem;
+  margin-top: 2rem;
+}
+
+.aboutheading {
+  border-left: solid 3px #035592;
+  margin-left: 15px;
+  padding-left: 2rem;
+  margin-top: 8.2rem;
+  font-family: "lato";
+}
+
+.about_heading1 {
+  color: #035592;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.016rem;
+  margin: 0;
+  font-family: "lato";
+}
+.about_heading2 {
+  color: #3a3c3f;
+  margin-top: 1.2rem;
+  font-size: 3.6rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 4rem;
+  font-family: "lato";
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.grid {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 7rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.aboutme_description {
+  flex: 37%;
+  font-size: 1.5rem;
+  padding-right: 4rem;
+  /* max-width: 54rem; */
+  font-family: "lato";
+  text-align: justify;
+}
+.aboutme_description p {
+  font-weight: 400;
+  font-family: "lato";
+}
+.aboutme_image {
+  /* flex: 30%; */
+  /* width: 100%; */
+  padding-right: 4rem;
+}
+.aboutme_image img {
+  width: 100%;
+  border: 10px solid #003a60;
+  border-radius: 20px;
+}
+
+.aboutme_properties {
+  flex: 22%;
+  justify-self: center;
+  margin-top: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  font-family: "lato";
+}
+.aboutme_properties ul {
+  list-style: none;
+}
+
+.aboutme_properties li ::before {
+  content: "\2022";
+  color: #035992;
+  font-weight: bold;
+  padding-right: 1rem;
+  width: 6px;
+  margin-left: -1em;
+}
+
+.aboutme_properties li {
+  font-weight: 700, Bold;
+  line-height: 2rem;
+  font-size: 1.8rem;
+}
+
+.aboutme_properties div {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin-bottom: 4.5rem;
+}
+
+.aboutme_properties p {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+  text-align: justify;
+  font-family: "lato";
+}
+.firsthead {
+  font-family: "latobold";
+  line-height: 1.8rem;
+  font-weight: 700;
+}
+.aboutme_properties-listitem {
+  margin-top: 4rem;
+}
+
+.aboutme_descrption-director {
+  text-align: right;
+}
+
+.aboutme_descrption-director p:nth-child(1) {
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 680px) {
+  .outercontainer {
+    background-repeat: repeat;
+    background-size: 100%;
+    margin-top: 2rem;
+    padding-top: 8rem;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .grid {
+    width: 100% !important;
+    margin: 0;
+    padding: 0 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutheading {
+    margin: 0;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .aboutme_description,
+  .aboutme_image,
+  .aboutme_properties {
+    flex: 100%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+    align-self: center;
+  }
+  .aboutme_description p {
+    text-align: justify;
+  }
+  .aboutme_image img {
+    width: 80%;
+    height: 60%;
+    padding: 0;
+  }
+
+  .aboutme_properties li {
+    text-align: left;
+  }
+}
+
+@media (max-width: 550px) {
+  .about_heading1 {
+    font-size: 1.5rem;
+  }
+  .about_heading2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}

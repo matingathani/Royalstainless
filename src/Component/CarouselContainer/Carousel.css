@@ -1,0 +1,7 @@
+.carousel-control-prev-icon ,.carousel-control-next-icon{
+    background-color: black;
+    padding: 3rem 1.5rem;
+    height: 2rem;
+    filter: none !important;
+    z-index: 99999;
+}

@@ -1,0 +1,133 @@
+
+.nav {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.31);
+  padding: 2.2rem 8rem 0rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav_head {
+  font-family: "Rye";
+  font-size: 3.4rem;
+  line-height: 4.2rem;
+  letter-spacing: 0.2em;
+  font-style: normal;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  padding-left: 6rem;
+  padding-bottom: 1rem;
+}
+
+.navbar {
+  display: inline-block;
+  color: #fff;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 0 !important;
+}
+
+.navlist {
+  margin: 0;
+  height: 100%;
+  display: inline-block;
+  margin-left: 4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "lato";
+  line-height: 2rem;
+  padding-bottom: 2.5rem;
+  text-decoration: none;
+}
+
+.navlist:hover {
+  padding-bottom:2.2rem ;
+  border-bottom: 0.3rem solid #fff;
+}
+
+.navlink {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color: #fff;
+  border: none;
+  padding-bottom: 2rem;
+  text-decoration: none;
+}
+
+.humburger {
+  display: block;
+  position: absolute;
+  right: 0;
+  padding: 0.8rem 2.4rem;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 60rem) {
+  .nav {
+    padding: 1rem;
+    padding-right: 2rem;
+  }
+
+  .navlist {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    transition: 2s linear;
+    transition: height 2s linear;
+    padding: 0;
+  }
+
+  .nav_head {
+    float: left;
+    align-self: flex-start;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+  }
+
+  .navbar {
+    display: none !important;
+    transition: height 2s linear;
+  }
+
+  .navbar_mobile {
+    align-self: flex-end;
+    padding-top: 2.5rem !important;
+    display: block;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    padding-right: 1rem;
+  }
+
+  .navlist {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .humburger {
+    display: block;
+    padding: 0.5rem;
+    padding-right: 1rem;
+  }
+}

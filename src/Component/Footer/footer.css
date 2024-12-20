@@ -1,0 +1,148 @@
+
+.footer{
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.footer_container{
+  
+  margin: 0;
+  background: #105481;
+  height: auto;
+  width: 100% !important;
+  padding:3rem 0rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start ;
+  justify-content: center;
+  padding-bottom: 10.1rem;
+}
+.footer_left{
+  flex: 20%;
+  padding-left: 5rem;
+}
+.footer_center{
+  flex: 30%;
+  padding-left: 2rem;
+  justify-self: center;
+}
+.footer_right{
+  flex: 30%;
+  position: relative;
+  padding-left: 5rem;
+}
+.footer_head{
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.7rem;
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+.footer_left{
+  align-self: center;
+  
+}
+.footer_list{
+  list-style-type: none;
+}
+.list{
+  font-family: 'lato';
+font-size: 1.6rem;
+font-style: normal;
+line-height: 1.8rem;
+font-weight: 400;
+color: #fff;
+margin-bottom: 1.5rem;
+display: flex;
+flex: row;
+align-items: flex-start;
+
+}
+.footer_img1{
+  width: 100%;
+  height: 100%;
+}
+.icons{
+  margin: 0;
+  margin-right: 1.6rem;
+  width: 1.4rem;
+  height: 1.8rem;
+
+}
+
+.bottom{
+  background-color: #105481;
+  margin-top: 1px;
+  text-align: center;
+}
+.bottom_para{
+  margin: 0;
+  padding: 2rem 0;
+  font-family: 'lato';
+  font-size: 1.4rem;
+  font-style: normal;
+  line-height: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+.wave{
+  margin: 0;
+  width: 100%;
+  z-index: -2;
+  transform: translate(0 ,3rem);
+}
+.waveimg{
+  width: 100%;
+}
+.Map{
+  width: 80%;
+  height: 80%;
+  
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+  
+}
+.link:hover{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+@media (max-width: 45rem) {
+  .footer_container{
+    display: block;
+    
+  }
+  .footer_left  , .footer_right{
+    padding: 0;
+    padding-left: 3rem;
+    margin-top: 2rem;
+  }
+  .footer_center{
+    padding-left: 3rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+  }
+  .footer_right{
+    max-width: 100%;
+    min-height: 300px;
+  }
+  .Map{
+    width: 90%;
+   min-height: 250px;
+  }
+  
+  .wave{
+    transform: translate(0,0.5rem);
+  }
+
+
+}
+
+
